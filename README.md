@@ -1,4 +1,4 @@
-# Django Project Structure Configure
+# Django Project Structure Scaffold
 
 ## Include Features
 - Organized Apps directory
