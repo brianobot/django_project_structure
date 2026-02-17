@@ -28,8 +28,8 @@ class User(BaseModel, AbstractBaseUser, PermissionsMixin):
     fullname = models.CharField(max_length=100, blank=True)
 
     # Essential for Django Admin & Permissions
-    is_staff = models.BooleanField(default=False)
-    is_active = models.BooleanField(default=True)
+    is_staff = models.BooleanField(default=False)  # type: ignore
+    is_active = models.BooleanField(default=True)  # type: ignore
     date_joined = models.DateTimeField(auto_now_add=True)
 
     objects = UserManager()
