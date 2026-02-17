@@ -17,14 +17,14 @@ After Downloading the Project Structure, In order to initialize the project corr
 - [ ] Create and Activate Virtual Environment for the Project
   - ```bash
     python3 -m venv venv && source venv/bin/Activate
-  ```
+    ```
 - [ ] Install Required Packages
   - ```bash
     pip install -r requirements.txt
-  ```
+    ```
 
 - [ ] Create an .env file in the project directly and copy the content of .env.example into it
 - [ ] Install Pre-commit Hook to Run on Every Commit
   - ```bash
     pip install pre-commit && pre-commit install
-  ```
+    ```
